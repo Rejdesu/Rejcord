@@ -1,7 +1,11 @@
+/*css required and provided - line 137*/
 @import url('//objectiveslayer.github.io/bd-snippets/customizable-toolbar.css');
-@import url('https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css');
+/*css required and provided - line 10*/
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css');
-@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css');
+/*standalone import*/
+@import url('https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css');
+/*standalone import - replace 'Emoji' with your choice: Apple, Facebook, Google, JoyPixels, Microsoft, OpenMoji, Samsung, WhatsApp*/
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Emoji.css');
 
 /*settings modal*/
 :root {
@@ -13,7 +17,7 @@
     --settingsmodalheight: 80vh;
 }
 
-/*modify display of edited/deleted tags from message logger*/
+/*modify display of edited and deleted tags from MessageLogger plugin*/
 .messagelogger-edited time span {
     font-size: 0;
     line-height: 1;
@@ -57,6 +61,7 @@
     font-weight: 500;
 }
 
+/*hide annoying nitro stuff*/
 /*hide nitro button above DM list*/
 [class^="channel-"]>div>[href="/store"],
 /*hide gift button*/
@@ -77,12 +82,12 @@
     display: none !important;
 }
 
-/*active now fix*/
+/*make active now in friends page appear regardless of window size*/
 .nowPlayingColumn-1eCBCN {
     display: block !important;
 }
 
-/*tooltips*/
+/*transparent and blurred tooltips*/
 #app-mount .tooltip-33Jwqe {
     width: 100%;
     height: 100%;
@@ -102,7 +107,7 @@ div [aria-label="Create Thread"] {
     display: none !important;
 }
 
-/*reaction tooltip*/
+/*transparent and blurred reaction tooltips*/
 #app-mount .reactionTooltip-3IOBwg {
     width: 100%;
     height: 100%;
@@ -116,7 +121,7 @@ div [aria-label="Create Thread"] {
     border-top-color: rgba(0, 0, 0, 0.5);
 }
 
-/*read all button*/
+/*modified appearance of ReadAllNotificationsButton plugin*/
 .button-ejjZWC.lookFilled-1H2Jvj.colorBrand-2M3O3N.sizeMin-3Yqxk5.grow-2T4nbg {
     border-radius: 10px;
     font-size: 8px;
@@ -129,7 +134,7 @@ div [aria-label="Create Thread"] {
     padding: 2px 2px 0 2px;
 }
 
-/*custom toolbar block=show, none=hide*/
+/*custom toolbar - block=show, none=hide*/
 :root {
     /*servers & DM's*/
     --threads-icon: none;
@@ -147,7 +152,7 @@ div [aria-label="Create Thread"] {
     --user-profile-icon: block;
 }
 
-/*makes user panel thingy look very neat*/
+/*user buttons panel redesign*/
 .container-YkUktl {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -181,7 +186,7 @@ button:hover {
     border-radius: 10px;
 }
 
-/*right click context menu*/
+/*transparent and blurred context menus*/
 .menu-2TXYjN {
     position: relative;
     background: none;
@@ -211,7 +216,7 @@ button:hover {
     border-radius: 6px;
 }
 
-/*role borders*/
+/*role borders that match role color*/
 :root {
     --roles-roundness: 0;
     /*change the 0 to any other number if you want the roles to be fully round*/
@@ -251,7 +256,7 @@ button:hover {
     -webkit-mask-composite: xor;
 }
 
-/*comfy-style spotify player*/
+/*spotify player redesigned (requires SpotifyControls plugin)*/
 #vc-spotify-player {
     --spotify-wave-width: 240px;
     --spotify-vencord-color: #1DB954;
@@ -331,7 +336,7 @@ button:hover {
     background: hsl(var(--primary-700-hsl)/0.3);
 }
 
-/*fun buttons*/
+/*user button panel animations*/
 .button-12Fmur .contents-3NembX {
     transform: rotate(0deg);
     transition: transform 0.3s;
@@ -350,7 +355,7 @@ button:hover {
     transition: width 0.3s, height 0.3s;
 }
 
-/*folder names*/
+/*always show folder names*/
 [data-list-id=guildsnav] [class*=expandedFolderBackground]+[class*=listItem] [data-dnd-name][draggable] {
     margin: 0 auto;
 }
