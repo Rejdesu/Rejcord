@@ -1,15 +1,17 @@
 
 # Custom CSS snippets for Discord
 
-This is just a collection of CSS snippets that I think are neat. I did not create any of these. This is my first time uploading stuff to GitHub, sorry for any mistakes.
-
+This is just a collection of CSS snippets that I think are neat. I did not create any of these. This is my first time uploading stuff to GitHub, sorry for any mistakes. Keep in mind I am using [AMOLED-Cord](https://github.com/LuckFire/amoled-cord) theme so you will probably have to adjust the color values of the snippets.
 
 ## Installation
 
-Import main css file or copy and paste whatever you want to use from the file. (im too lazy to seperate each snippet into their own file, maybe one day)
+There are 2 ways of doing this. 
+1. Import main css file using the link provided below. (you wont be able to make edits with this method unless you fork)
+2. Copy and paste individual snippets you want from the main file. (im too lazy to seperate each snippet into their own file, maybe one day)
 
 ```css
-@import url('placeholder'); /*place this at the very top of your custom CSS if you plan on using the entire main file*/
+/*rejcord*/
+@import url('https://raw.githubusercontent.com/Rejdesu/Rejcord/main/quickCss.css'); /*place this at the very top of your custom CSS if you plan on using the entire main file*/
 ```
 
 ## Imports
@@ -17,45 +19,54 @@ Import main css file or copy and paste whatever you want to use from the file. (
 Some CSS snippets will require you to use the import links at the top of the main CSS file. Make sure to check them out if you think you'll need them and make sure to place them at the very top of your file.
 
 ```css
-/*css required and provided*/
+/*css required and provided - line 137*/
 @import url('//objectiveslayer.github.io/bd-snippets/customizable-toolbar.css');
 
-/*css required and provided*/
+/*css required and provided - line 10*/
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css');
 
 /*standalone import*/
 @import url('https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css'); 
 
-/*standalone import. replace 'Emoji' with your choice: Apple, Facebook, Google, JoyPixels, Microsoft, OpenMoji, Samsung, WhatsApp*/
-@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Emoji.css'); 
+/*standalone import - replace 'Emoji' with your choice: Apple, Facebook, Google, JoyPixels, Microsoft, OpenMoji, Samsung, WhatsApp*/
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Emoji.css');
 
 ```
+
 ## Current Features 
 
-- Always show folder names
-- Custom image slideshow watermark
-- Custom toolbar
-- Hide annoying Nitro stuff
-- Make Active Now in friends page stay open regardless of window size
-- Modified appearance of ReadAllNotificationsButton plugin
-- Modify display of edited and deleted tags from MessageLogger plugin
-- Remove invite button next to channel name
-- Remove thread button in message quick actions
-- Replace message links with "`[Jump to Message]`"
-- Role borders that match role color
-- Search bar minimized until hover
-- Settings Modal
-- Spotify player redesigned (requires SpotifyControls plugin)
-- Transparent and blurred context menus
-- Transparent and blurred reaction tooltips
-- Transparent and blurred tooltips
-- User button panel animations
-- User buttons panel redesign
-- *more to come*...
+| Snippet | Description | Line |
+|:---:|:---:|:---:|
+| Always show folder names | Folder names are always visible, even when closed. Customizable text. | 358 |
+| Custom image slideshow watermark | 32x32px images at the bottom right corner of client, customizable. [preview](https://files.catbox.moe/h7kkw8.gif) | 381 |
+| Custom toolbar | Lets you hide toolbar elements: e.g. threads, pins. customizable. | 137 |
+| Hide annoying Nitro stuff | Hides most intrusive nitro upsell, customizable. | 64 |
+| Active Now fix | Make Active Now in friends page stay open regardless of window size. | 85 |
+| Read All button redesign | Modified appearance of ReadAllNotificationsButton plugin, customizable. | 124 |
+| MessageLogger redesign | Modify display of edited and deleted tags from MessageLogger plugin, customizable. | 20 |
+| Channel list cleanup | Remove invite button next to channel name. | 100 |
+| Quick action cleanup | Remove thread button in message quick actions. | 105 |
+| Message link cleanup | Replace message links with "`[Jump to Message]`". | 48 |
+| Role borders | Role borders that match role color. | 219 |
+| Minimal search bar | Search bar minimized until hovered. | 456 |
+| Settings Modal | Clicking settings now opens a modal instead of covering your entire screen, customizable. | 10 |
+| Spotify player redesigned | Requires SpotifyControls plugin, customizable. | 259 |
+| Context Menu redesign | Transparent and blurred context menus, customizable. | 89 |
+| Reaction Tooltip redesign | Transparent and blurred reaction tooltips, customizable. | 110 |
+| Tooltip redesign | Transparent and blurred tooltips, customizable. | 90 |
+| User button panel animations | Adds animation that activate when you hover over a button. | 33 |
+| User buttons panel redesign | The panel is located to the left of the text box, customizable. | 155 |
+| More to come... | ᗜ‿ᗜ | ᗜ‿ᗜ |
 
-![Logo](https://files.catbox.moe/8y6imf.png)
+![Cirno](https://files.catbox.moe/8y6imf.png) ![Fujiwara no Mokou](https://files.catbox.moe/dg65ax.png) ![Yuyuko Saigyouji](https://files.catbox.moe/i0h60a.png)
+
+## Feedback
+
+If you have any feedback, please reach out to me on Discord: Rej#1234. I can't guarantee that I will reply.
 
 ## Acknowledgements
 
- - The talented people who made the original snippets.
- - ChatGPT for their assistance in modifying most of the snippets.
+ - The talented and creative people who made the original snippets.
+ - [ChatGPT](https://chat.openai.com/) for their assistance in modifying most of the snippets.
+ - [Vencord Discord](https://discord.gg/vencord) #-css-snippets channel
+ - [BetterDiscord Discord](https://discord.gg/0Tmfo5ZbORCRqbAd) #custom-css channel
