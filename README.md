@@ -38,7 +38,7 @@ Some CSS snippets will require you to use the import links at the top of the mai
 | Snippet | Description | Line |
 |:---:|:---:|:---:|
 | Always show folder names | Folder names are always visible, even when closed. Customizable text. | 358 |
-| Custom image slideshow watermark | 32x32px images at the bottom right corner of client, customizable. [preview](https://files.catbox.moe/h7kkw8.gif) | 381 |
+| Custom image slideshow watermark | 32x32px images at the bottom right corner of client, customizable. [preview](https://i.imgur.com/nogmlFr.gif) | 381 |
 | Custom toolbar | Lets you hide toolbar elements: e.g. threads, pins. customizable. | 137 |
 | Hide annoying Nitro stuff | Hides most intrusive nitro upsell, customizable. | 64 |
 | Active Now fix | Make Active Now in friends page stay open regardless of window size. | 85 |
