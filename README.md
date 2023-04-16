@@ -1,5 +1,5 @@
 
-# Custom CSS snippets for Discord
+# Custom CSS snippets for Discord (WIP)
 
 This is just a collection of CSS snippets that I think are neat. I did not create any of these. This is my first time uploading stuff to GitHub, sorry for any mistakes. Keep in mind I am using [AMOLED-Cord](https://github.com/LuckFire/amoled-cord) theme so you will probably have to adjust the color values of the snippets.
 
