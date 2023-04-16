@@ -37,28 +37,33 @@ Some CSS snippets will require you to use the import links at the top of the mai
 
 | Snippet | Description | Line |
 |:---:|:---:|:---:|
+| Active Now fix | Make Active Now in friends page stay open regardless of window size. | 85 |
 | Always show folder names | Folder names are always visible, even when closed. Customizable text. | 358 |
+| Channel list cleanup | Remove invite button next to channel name. | 100 |
+| Context Menu redesign | Transparent and blurred context menus, customizable. | 89 |
+| Custom image in vencord settings | Allows you to change the image in vencord settings. | 489 |
 | Custom image slideshow watermark | 32x32px images at the bottom right corner of client, customizable. [preview](https://i.imgur.com/nogmlFr.gif) | 381 |
 | Custom toolbar | Lets you hide toolbar elements: e.g. threads, pins. customizable. | 137 |
 | Hide annoying Nitro stuff | Hides most intrusive nitro upsell, customizable. | 64 |
-| Active Now fix | Make Active Now in friends page stay open regardless of window size. | 85 |
-| Read All button redesign | Modified appearance of ReadAllNotificationsButton plugin, customizable. | 124 |
-| MessageLogger redesign | Modify display of edited and deleted tags from MessageLogger plugin, customizable. | 20 |
-| Channel list cleanup | Remove invite button next to channel name. | 100 |
-| Quick action cleanup | Remove thread button in message quick actions. | 105 |
 | Message link cleanup | Replace message links with "`[Jump to Message]`". | 48 |
-| Role borders | Role borders that match role color. | 219 |
+| MessageLogger redesign | Modify display of edited and deleted tags from MessageLogger plugin, customizable. | 20 |
 | Minimal search bar | Search bar minimized until hovered. | 456 |
+| Quick action cleanup | Remove thread button in message quick actions. | 105 |
+| Read All button redesign | Modified appearance of ReadAllNotificationsButton plugin, customizable. | 124 |
+| Reaction Tooltip redesign | Transparent and blurred reaction tooltips, customizable. | 110 |
+| Role borders | Role borders that match role color. | 219 |
 | Settings Modal | Clicking settings now opens a modal instead of covering your entire screen, customizable. | 10 |
 | Spotify player redesigned | Requires SpotifyControls plugin, customizable. | 259 |
-| Context Menu redesign | Transparent and blurred context menus, customizable. | 89 |
-| Reaction Tooltip redesign | Transparent and blurred reaction tooltips, customizable. | 110 |
 | Tooltip redesign | Transparent and blurred tooltips, customizable. | 90 |
 | User button panel animations | Adds animation that activate when you hover over a button. | 33 |
 | User buttons panel redesign | The panel is located to the left of the text box, customizable. | 155 |
 | More to come... | ᗜ‿ᗜ | ᗜ‿ᗜ |
 
-![Cirno](https://files.catbox.moe/8y6imf.png) ![Fujiwara no Mokou](https://files.catbox.moe/dg65ax.png) ![Yuyuko Saigyouji](https://files.catbox.moe/i0h60a.png)
+<p align="center">
+  <img src="https://files.catbox.moe/8y6imf.png" alt="Cirno">
+  <img src="https://files.catbox.moe/dg65ax.png" alt="Fujiwara no Mokou">
+  <img src="https://files.catbox.moe/i0h60a.png" alt="Yuyuko Saigyouji">
+</p>
 
 ## Feedback
 
