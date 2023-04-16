@@ -485,3 +485,17 @@ body:before {
 .search-2Mwzzq:not(.open-1F8u2c):hover .icon-18rqoe {
     color: var(--text-muted);
 }
+
+/*custom image in vencord settings*/
+.vc-settings-card>img {
+    display: none;
+}
+
+.vc-settings-card::after {
+    background-image: url(https://cdn.discordapp.com/attachments/556379822180401162/1096965952807125083/1068538985342849084.gif);
+    height: 128px;
+    margin-left: auto;
+    width: 128px;
+    content: "";
+    background-size: 128px;
+}
