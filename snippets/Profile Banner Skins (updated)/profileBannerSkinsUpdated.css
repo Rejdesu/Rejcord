@@ -1,0 +1,64 @@
+/*-----profile banner skins updated (original by Disease#5663)-----/
+/*uses the banner color of profile popout as background*/
+/*avatar*/
+.userProfileOuterUnthemed-11rPfA :where(.avatarWrapper-eenWra, .avatar-3QF_VA) {
+    background: var(--profile-body-background-color);
+    box-shadow: var(--elevation-medium);
+  }
+  .userProfileOuterUnthemed-11rPfA
+    :where(.avatarHoverTarget-1zzfRL, .avatarHint-k7pYop, .avatar-3QF_VA) {
+    padding: 6px;
+  }
+  .profileColors-2AgAV4 .wrapper-3Un6-K circle,
+  .profileColors-2AgAV4 .wrapper-3Un6-K rect[style] {
+    fill: none;
+  }
+
+  /*banner*/
+  .userProfileOuterUnthemed-11rPfA .bannerSVGWrapper-2CLfzN {
+    overflow: visible;
+    contain: none;
+  }
+  .userProfileOuterUnthemed-11rPfA .bannerSVGWrapper-2CLfzN foreignObject {
+    mask: none;
+  }
+  .popoutBanner-3cqRD9,
+  .profileBanner-1owKI5 {
+    height: 100vh;
+  }
+
+  /*body*/
+  .overlayBackground-2aa7wt {
+    margin: 28px 8px 8px;
+    z-index: 1;
+  }
+  .profileColors-2AgAV4 .overlayBackground-2aa7wt {
+    box-shadow: var(--elevation-medium);
+  }
+  .profileColors-2AgAV4 {
+    position: relative;
+  }
+  .theme-dark .profileColors-2AgAV4 {
+    --profile-body-background-color: rgba(0, 0, 0, 0.45);
+  }
+  .theme-light .profileColors-2AgAV4 {
+    --profile-body-background-color: rgba(255, 255, 255, 0.65);
+  }
+
+  /*badges*/
+  .userProfileOuterUnthemed-11rPfA .profileBadges-2pItdR {
+    z-index: 1;
+  }
+  .profileBadges-2pItdR:not(.containerWithContent-2Yws8V) {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  .profileColors-2AgAV4 .containerWithContent-2Yws8V {
+    box-shadow: var(--elevation-medium);
+  }
+  .profileColors-2AgAV4 .relationshipButtons-3ByBpj button {
+    box-shadow: var(--elevation-medium);
+  }
+  .profileColors-2AgAV4 .messageInputContainer-24qqTx {
+    border: none;
+  }
